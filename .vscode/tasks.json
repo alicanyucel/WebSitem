@@ -37,6 +37,16 @@
           }
         }
       }
+    },
+    {
+      "type": "npm",
+      "script": "build",
+      "group": "build",
+      "problemMatcher": {
+        "owner": "typescript",
+        "pattern": "$tsc"
+      },
+      "label": "Build Production"
     }
   ]
 }
